@@ -10,6 +10,8 @@ declare namespace NodeJS {
     }
 }
 
+declare module 'uuid';
+
 declare module '*.avif' {
     const src: string;
     export default src;

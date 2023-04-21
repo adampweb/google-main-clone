@@ -1,0 +1,63 @@
+[
+  {
+    "href": "#home",
+    "img_alt": "Home",
+    "icon": "https://www.gstatic.com/navigationdrawer/home_icon.svg",
+    "title": "Home"
+  },
+  {
+    "href": "#search-history",
+    "img_alt": "Search history",
+    "icon": "https://www.gstatic.com/navigationdrawer/search_activity_icon.svg",
+    "title": "Search history"
+  },
+  {
+    "href": "#collections",
+    "img_alt": "Collections",
+    "icon": "https://www.gstatic.com/navigationdrawer/save_icon.svg",
+    "title": "Collections"
+  },
+  {
+    "href": "#offline-searches",
+    "img_alt": "Offline searches",
+    "icon": "https://www.gstatic.com/navigationdrawer/manage_searches_icon.svg",
+    "title": "Offline searches"
+  },
+  {
+    "href": "#search-settings",
+    "img_alt": "Search settings",
+    "icon": "https://www.gstatic.com/navigationdrawer/settings_icon.svg",
+    "title": "Search settings"
+  },
+  {
+    "href": "#your-data-in-search",
+    "img_alt": "Your data in Search",
+    "icon": "https://www.gstatic.com/navigationdrawer/privacy_advisor_icon.svg",
+    "title": "Your data in Search"
+  },
+  {
+    "href": "#safesearch",
+    "img_alt": "SafeSearch: Off",
+    "icon": "https://www.gstatic.com/navigationdrawer/explicit_icon.svg",
+    "title": "SafeSearch: Off"
+  },
+  {
+    "href": "#howsearchworks",
+    "img_alt": "How Search works",
+    "icon": "https://www.gstatic.com/navigationdrawer/how_search_works_icon.svg",
+    "title": "How Search works"
+  },
+  {
+    "href": "#help",
+    "img_alt": "Help",
+    "icon": "https://www.gstatic.com/navigationdrawer/help_icon.svg",
+    "title": "Help"
+  },
+  {
+    "href": "#send-feedback",
+    "img_alt": "Send feedback",
+    "icon": "https://www.gstatic.com/navigationdrawer/feedback_icon.svg",
+    "title": "Send feedback"
+  }
+
+]
