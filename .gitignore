@@ -5,6 +5,7 @@ docker-compose.yml
 /node_modules
 /.pnp
 .pnp.js
+*.lock
 
 # testing
 /coverage

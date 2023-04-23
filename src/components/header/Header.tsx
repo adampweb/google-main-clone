@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styles from "./header.module.css"
 import Sidebar from "./sidebar";
+import TabSelector from "./tabs";
 
 function Header(){
     const [isShownSidebar, setIsShownSidebar] = useState(false);
@@ -24,6 +25,7 @@ function Header(){
                     {isShownSidebar && (<Sidebar style={{display: isShownSidebar ? 'block' : 'none' }} open={{isShownSidebar}} parentFunction={{toggleSidebar}}/>)}
                 </div>
             </div>
+            <TabSelector/>
         </header>
     )
 }
