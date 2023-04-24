@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styles from "./header.module.css"
 import Sidebar from "./sidebar";
 import TabSelector from "./tabs";
+import AppSelector from "./menu";
 
 function Header(){
     const [isShownSidebar, setIsShownSidebar] = useState(false);
@@ -26,6 +27,7 @@ function Header(){
                 </div>
             </div>
             <TabSelector/>
+            <AppSelector/>
         </header>
     )
 }

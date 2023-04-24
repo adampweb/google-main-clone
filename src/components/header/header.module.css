@@ -1,4 +1,8 @@
-body,html{height:100%;margin:0;padding:0}.z1asCe{display:inline-block;fill:currentColor;height:24px;line-height:24px;position:relative;width:24px}.z1asCe svg{display:block;height:100%;width:100%}body{font-family:Roboto,Helvetica Neue,Arial,sans-serif;font-size:10pt;}#belowsb{margin-top:24px;}.yKiQp{min-height:25px}#belowsb a{color:#1558d6}#swml,#belowsb{text-align:center}#swml{height:25px;margin:5px 0}#swml>div{margin:1px 0}#gb-main{display:-webkit-box;display:flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;flex-direction:column;flex-direction:column;min-height:100%}#outer{-webkit-box-flex:1;flex:1;flex:1}@media only screen and (orientation:portrait){#outer{padding-top:20px}}#mlogo{display:none}.gs_ml #lst-ib{white-space:normal;height:auto}header{display:-webkit-box;display:flex;display:-ms-flexbox;display:flex;height:48px;width:100%}#vLkmZd{-webkit-box-flex:0;flex:0 0 auto;flex:0 0 auto;position:relative;z-index:1}.igu8Pb{-webkit-box-flex:1;flex:1 0 auto;flex:1 0 auto}
+header{
+    display: flex;
+    height: 48px;
+    width: 100%;
+}
 .KojFAc{
     padding: 12px 16px;
     fill:#70757a;
@@ -67,3 +71,121 @@ body,html{height:100%;margin:0;padding:0}.z1asCe{display:inline-block;fill:curre
 #SBmmZd{display:-webkit-box;display:flex;display:-ms-flexbox;display:flex;overflow-x:hidden;}
 #SBmmZd a{color:#70757a;display:block;-webkit-box-flex:0;flex:0 0 auto;font-size:12px;font-weight:600;line-height:48px;margin-right:8px;padding:0 8px;text-align:center;text-transform:uppercase;text-decoration:none}
 #SBmmZd a.active{color:#4285f4;border-bottom:2px solid #4285f4}
+.igu8Pb{
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+}
+#vLkmZd {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.gb_Ia.gb_n {
+    min-width: auto;
+}
+.gb_ab:not(.gb_qd) {
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+}
+.gb_n {
+    height: 48px;
+}
+.gb_Ia {
+    color: black;
+    min-width: 160px;
+    position: relative;
+    -webkit-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
+}
+.gb_Ia.gb_Ja .gb_ad{margin-bottom:0}
+.gb_cd.gb_dd .gb_ad{padding-left:4px}
+.gb_Ia.gb_Ja .gb_ed{position:relative;top:-2px}
+.gb_Ia{color:black;min-width:160px;position:relative;-webkit-transition:box-shadow 250ms;transition:box-shadow 250ms}
+.gb_Ia.gb_Tc{min-width:120px}
+.gb_n .gb_Ed.gb_Id {
+    padding-left: 0;
+}
+.gb_n .gb_Ed {
+    float: right;
+    padding-left: 32px;
+}
+.gb_Ed {
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px 0 30px;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+.gb_8a.gb_9a .gb_Za{width:30px!important}
+.gb_td {
+    height: 48px;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-user-select: none;
+}
+.gb_2c .gb_Ae, .gb_n .gb_Ae {
+    float: right;
+}
+.gb_Ae {
+    position: relative;
+}
+.gb_3c{
+    display: inline;
+}
+
+.gb_Vd:first-child, #gbsfw:first-child+.gb_Vd {
+    padding-left: 4px;
+}
+.gb_Vd {
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.gb_Q .gb_e,.gb_R .gb_Q .gb_e{background-position:-64px -29px}
+.gb_w .gb_Q .gb_e{background-position:-29px -29px;opacity:1}
+.gb_Q .gb_e,.gb_Q .gb_e:hover,.gb_Q .gb_e:focus{opacity:1}
+.gb_b.gb_v,.gb_7a.gb_v,.gb_3a.gb_v{-webkit-flex:0 1 auto;flex:0 1 auto;}
+.gb_Vd.gb_Da.gb_if .gb_cb,.gb_Vd.gb_Da.gb_if .gb_db{display:none}
+.gb_jf{position:absolute;right:8px;top:62px;z-index:-1}
+.gb_o{position:relative}
+.gb_e{padding: 8px;cursor: pointer;display:inline-block;outline:none;vertical-align:middle;-webkit-border-radius:2px;border-radius:2px;box-sizing:border-box;height:40px;width:40px;color:#000;cursor:pointer;text-decoration:none}
+
+.gb_Ia svg, .gb_Qc svg, .gb_cd .gb_Md, .gb_2c .gb_Md {
+    color: #5f6368;
+    opacity: 1;
+}
+.gb_Ia svg {
+    fill: currentColor;
+}
+.gb_Be button svg, .gb_e {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.gb_h {
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    border: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
+#gb#gb a.gb_e{color:#000;cursor:pointer;text-decoration:none}
+.gb_b .gb_e {
+    padding: 4px;
+}
