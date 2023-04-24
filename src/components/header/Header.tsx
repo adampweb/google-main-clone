@@ -4,7 +4,7 @@ import Sidebar from "./sidebar";
 import TabSelector from "./tabs";
 import AppSelector from "./menu";
 
-function Header(){
+const Header = ({...props}) => {
     const [isShownSidebar, setIsShownSidebar] = useState(false);
 
     const toggleSidebar = (event: any) => {
@@ -26,7 +26,7 @@ function Header(){
                     {isShownSidebar && (<Sidebar style={{display: isShownSidebar ? 'block' : 'none' }} open={{isShownSidebar}} parentFunction={{toggleSidebar}}/>)}
                 </div>
             </div>
-            <TabSelector/>
+            <TabSelector mainTabFn={props.mainTabFn} imgTabFn={props.imgTabFn} tabStates={props.tabStates}/>
             <AppSelector/>
         </header>
     )

@@ -4,3 +4,13 @@ body {
     padding: 0;
     margin: 0;
 }
+
+#gb-main {
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    min-height: 523px;
+}
