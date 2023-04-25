@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/header";
 import MainTab from "./components/main/tabs/MainTab";
 import ImagesTab from "./components/main/tabs/ImagesTab";
+import Footer from "./components/footer";
 
 const App = () => {
     const [isShownMainTab, setIsShownMainTab] = useState(true);
@@ -24,6 +25,7 @@ const App = () => {
             <Header mainTabFn={{showMainTab}} imgTabFn={{showImagesTab}} tabStates={{mainTabState: isShownMainTab, imgTabState: isShownImagesTab}}/>
             {isShownMainTab && <MainTab style={{display: isShownMainTab ? 'block' : 'none' }}/>}
             {isShownImagesTab && <ImagesTab style={{display: isShownImagesTab ? 'block' : 'none' }}/>}
+            <Footer/>
         </div>
     );
 }
