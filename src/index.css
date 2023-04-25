@@ -14,3 +14,13 @@ body {
     flex-direction: column;
     min-height: 523px;
 }
+
+#disclaimer{
+    text-align: center;
+    padding: 24px 12px;
+    margin: 8px;
+    border: 2px solid #f6d002;
+}
+#disclaimer h2{
+    font-size: 26px;
+}
