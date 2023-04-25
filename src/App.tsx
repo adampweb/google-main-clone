@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/header";
-import MainTab from "./components/header/tabs/MainTab";
-import ImagesTab from "./components/header/tabs/ImagesTab";
+import MainTab from "./components/main/tabs/MainTab";
+import ImagesTab from "./components/main/tabs/ImagesTab";
 
 const App = () => {
     const [isShownMainTab, setIsShownMainTab] = useState(true);

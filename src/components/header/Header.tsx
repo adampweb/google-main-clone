@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styles from "./header.module.css"
 import Sidebar from "./sidebar";
-import TabSelector from "./tabs";
+import TabSelector from "../main/tabs";
 import AppSelector from "./menu";
 
 const Header = ({...props}) => {

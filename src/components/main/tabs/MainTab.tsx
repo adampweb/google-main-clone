@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./tabs.module.css";
-import googleLogo from "../images/googlelogo_color_160x56dp.png"
+import googleLogo from "../../header/images/googlelogo_color_160x56dp.png"
 
 const MainTab = ({...props}) => {
     return(
