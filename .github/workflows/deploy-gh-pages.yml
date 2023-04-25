@@ -22,6 +22,7 @@ jobs:
     steps:
     - name: Checkout repository
     - uses: actions/checkout@v3
+    - shell: bash
     - run: |
         git config --global user.email "adamweb92@gmail.com"
         git config --global user.name "adampweb"
@@ -33,12 +34,15 @@ jobs:
         cache: 'npm'
         
     - name: Install dependencies
+    - shell: bash
       run: npm install
       
     - name: Build
+    - shell: bash
       run: npm run build
       
     - name: Deploy
+    - shell: bash
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
