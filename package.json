@@ -2,15 +2,19 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adampweb.github.io/google-main-clone/",
+  "main": "./src/index.tsx",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "5.0.0",
     "sass": "^1.62.0",
     "typescript": "^5.0.4",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/adampweb/google-main-clone.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "@types/uuid": "^9.0.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -43,6 +46,8 @@
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "@types/uuid": "^9.0.1",
+    "gh-pages": "^5.0.0"
   }
 }

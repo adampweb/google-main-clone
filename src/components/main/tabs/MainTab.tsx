@@ -15,7 +15,7 @@ const MainTab = ({...props}) => {
                             <div>
                                 <div className={`${styles.A7Yvie} ${styles.Epl37}`}>
                                     <div className={styles.zGVn2e}>
-                                        <button type={"button"} className={styles.Cdl0yb} id={styles["tsuid_1"]} tabIndex={0} aria-label={"Back"} role={"button"} >
+                                        <button type={"button"} className={styles.Cdl0yb} id={styles["tsuid_1"]} tabIndex={0} aria-label={"Back"} >
                                             <div className={styles.Z7Bonf}>
                                                 <span className={styles.z1asCe}>
                                                     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg>
@@ -43,7 +43,6 @@ const MainTab = ({...props}) => {
                                                     autoCapitalize={"off"}
                                                     autoComplete={"off"}
                                                     autoCorrect={"off"}
-                                                    role={"textbox"}
                                                     spellCheck={"false"}
                                                     tabIndex={0}
                                                     aria-label={"Google Search"}

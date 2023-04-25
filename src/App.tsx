@@ -8,15 +8,6 @@ const App = () => {
     const [isShownMainTab, setIsShownMainTab] = useState(true);
     const [isShownImagesTab, setIsShownImagesTab] = useState(false);
 
-    function usePersistedState(key: string, defaultValue: string) {
-        const [state, setState] = useState(
-            localStorage.getItem(key) || defaultValue
-        );
-        useEffect(() => {
-            localStorage.setItem(key, state);
-        }, [key, state]);
-        return [state, setState];
-    }
     const [isShownMessage, setIsShownMessage] = useState(localStorage.getItem("showWarning") || "true");
 
 
