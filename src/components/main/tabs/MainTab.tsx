@@ -58,7 +58,7 @@ const MainTab = ({...props}) => {
                                                     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
                                                 </span>
                                             </button>
-                                            <button className={styles.Eqsa5b} id={styles["Q7Ulpb"]} tabIndex={0} type={"button"} role={"button"} title={"Search by voice"}>
+                                            <button className={styles.Eqsa5b} id={styles["Q7Ulpb"]} tabIndex={0} type={"button"} title={"Search by voice"}>
                                                 <svg className={styles.Nw0Dr} focusable="false"
                                                      viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path fill="#4285f4"
@@ -70,7 +70,7 @@ const MainTab = ({...props}) => {
                                                           d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
                                                 </svg>
                                             </button>
-                                            <a className={styles.eiZhDe} href={"#search-by-image"} tabIndex={0} aria-label={"Search using your camera or photos"} role={"link"}>
+                                            <a className={styles.eiZhDe} href={"#search-by-image"} tabIndex={0} aria-label={"Search using your camera or photos"}>
                                                 <button className={styles.AcPRKc} tabIndex={-1} type={"button"} title={"Camera search"}>
                                                     <svg className={styles.b4yCbb} focusable="false"
                                                          viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">

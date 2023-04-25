@@ -1,3 +1,9 @@
+#footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 .ZYHQ7e{color:#70757a}
 .fbar{line-height:33px;text-align:center}
 .M6hT6{left:0;right:0;-webkit-text-size-adjust:none}
@@ -17,3 +23,18 @@
 .lA8P5e{color:#3c4043}
 .As6eLe{padding-bottom:10px;background:#f2f2f2}
 .Lt2Ned{margin-top:-10px}
+.M6hT6 #swml {
+    border-top: 1px solid #dadce0;
+    height: auto;
+    line-height: 15px;
+    margin: 0;
+    min-height: 15px;
+    padding: 15px 0;
+    visibility: visible;
+}
+
+@media only screen and (max-width: 1200px){
+    .KxwPGc {
+        justify-content: space-evenly;
+    }
+}

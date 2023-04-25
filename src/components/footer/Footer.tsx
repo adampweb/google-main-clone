@@ -10,6 +10,7 @@ const Footer = ({...props}) => {
                         <span className={styles.Q8LRLc}>Hungary</span>
                     </div>
                 </div>
+                <div className={styles.fbar} id={styles["swml"]}></div>
                 <div className={`${styles.fbar} ${styles.footer_homepage_mobile_settings_row_above_fold} ${styles.JQyAhb}`}>
                     <a className={styles.Fx4vi} href="#dark-theme" tabIndex={0} role={"button"}>Dark theme: off</a>
                     <span className={styles.j9xd9b}>
